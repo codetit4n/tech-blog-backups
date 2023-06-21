@@ -1,4 +1,12 @@
-# References and Borrowing in Rust
+---
+title: "References and Borrowing in Rust"
+datePublished: Mon Feb 27 2023 19:20:16 GMT+0000 (Coordinated Universal Time)
+cuid: clen7ftsm000209mfd4rq8vxs
+slug: rust-series-7
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1677080156848/40721767-826a-4a96-822d-7c030d532164.gif
+tags: programming-blogs, beginners, rust, rust-lang, rustseries
+
+---
 
 ## GitHub repo with all the code
 
@@ -288,13 +296,5 @@ Keep these in mind while working with References:
     
 * References must always be valid.
     
-
-## A Suggestion
-
-I know things are getting a bit complicated. So, let me share with you what I do to understand things and retain them.
-
-I start coding. You will not make a strong Rust foundation until you code with it, and experiment with it. One way to do that is to use something like [Rustlings](https://github.com/rust-lang/rustlings).
-
-Which is a very good tool to get used to reading and writing Rust code. Just clone the repo and follow the instructions and start coding. You will learn a lot. And if you get stuck you can always come back to this article(or any article of this series for that matter).
 
 Thank you!
