@@ -1,4 +1,12 @@
-# Make a strong  Rust Foundation - Data Types, Variables, Mutability, and Constants
+---
+title: "Make a strong  Rust Foundation - Data Types, Variables, Mutability, and Constants"
+datePublished: Fri Feb 10 2023 16:52:35 GMT+0000 (Coordinated Universal Time)
+cuid: cldyrof17000009lbe6z56rmd
+slug: rust-series-3
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1716643861999/b94e5c2a-3fd7-4830-b465-4d6de9df4a61.gif
+tags: programming-blogs, learning, rust, rust-lang, rustseries
+
+---
 
 ### Objective
 
@@ -10,7 +18,7 @@ I will try my best to go into as much detail as possible. But don't worry if you
 
 ### GitHub repo with all the code
 
-[**https://github.com/codeTIT4N/rust-school**](https://github.com/codeTIT4N/rust-school)
+[https://github.com/codetit4n/rust-school](https://github.com/codetit4n/rust-school)
 
 Make sure to star/fork/watch it on GitHub.
 
@@ -163,7 +171,7 @@ Other types of numbers can also be represented like these:
 | Binary | `0b1111_0000` |
 | Byte(`u8` only) | `b'A'` |
 
-You can find examples of these here: [https://github.com/codeTIT4N/rust-school/blob/main/lesson-3/variables/src/main.rs](https://github.com/codeTIT4N/rust-school/blob/main/lesson-3/variables/src/main.rs)
+You can find examples of these here: [https://github.com/codetit4n/rust-school/blob/main/lesson-3/variables/src/main.rs](https://github.com/codetit4n/rust-school/blob/main/lesson-3/variables/src/main.rs)
 
 Understanding Integer Overflow:
 
