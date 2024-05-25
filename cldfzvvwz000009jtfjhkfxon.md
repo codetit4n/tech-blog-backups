@@ -1,4 +1,12 @@
-# Rust: Talk to the Ethereum Blockchain
+---
+title: "Rust: Talk to the Ethereum Blockchain"
+datePublished: Sat Jan 28 2023 13:34:43 GMT+0000 (Coordinated Universal Time)
+cuid: cldfzvvwz000009jtfjhkfxon
+slug: rust-talk-to-the-ethereum-blockchain
+cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/ATNm3g5zkvc/upload/3d2c7cb6c109b3019f23cfbfa66d8bf9.jpeg
+tags: tutorial, rust, blockchain, ethereum, explained
+
+---
 
 ### Objective
 
@@ -12,7 +20,7 @@ But, Running a node is not always feasible for everyone. Enter [Infura](https://
 
 ### GitHub repo containing all the code
 
-Find the code here: [https://github.com/codeTIT4N/rust-web3-basics](https://github.com/codeTIT4N/rust-web3-basics)
+Find the code here: [https://github.com/codetit4n/rust-web3-basics](https://github.com/codetit4n/rust-web3-basics)
 
 You can star/fork this over github.
 
