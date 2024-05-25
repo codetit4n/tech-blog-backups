@@ -1,10 +1,18 @@
-# Understand Ownership in Rust
+---
+title: "Understand Ownership in Rust"
+datePublished: Tue Feb 21 2023 18:50:58 GMT+0000 (Coordinated Universal Time)
+cuid: cleelr1iv000209l6b9k8fo7a
+slug: rust-series-6
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1716644651556/5b346fc6-0a5b-49fc-8817-4a9cec344ca6.gif
+tags: programming-blogs, rust, low-level-design, rust-lang, rustseries
+
+---
 
 ## GitHub repo with all the code
 
-[https://github.com/codeTIT4N/rust-school](https://github.com/codeTIT4N/rust-school)
+[https://github.com/codetit4n/rust-school](https://github.com/codetit4n/rust-school)
 
-For this lesson: [https://github.com/codeTIT4N/rust-school/tree/main/lesson-6](https://github.com/codeTIT4N/rust-school/tree/main/lesson-6)
+For this lesson: [https://github.com/codetit4n/rust-school/tree/main/lesson-6](https://github.com/codetit4n/rust-school/tree/main/lesson-6)
 
 Make sure to star/fork/watch it on GitHub.
 
@@ -130,7 +138,7 @@ These are not suitable for all situations. Few things to note:
     
     ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1676965966877/aa67b4f2-bf92-447e-a9ec-ceb636644267.png align="left")
     
-* **But, why is that** `String` **can be mutated but literals cannot?**
+* **But, why is that**`String`**can be mutated but literals cannot?**
     
     The difference is in how these two types deal with memory.
     
@@ -146,7 +154,7 @@ With the `String` type, in order to support a mutable, growable piece of text, w
 
 That first part is done by us: when we call `String::from`, its implementation requests the memory it needs.
 
-For the second part in Rust: the memory is automatically returned once the variable that owns it goes out of [scope](https://blog.lokeshkr.com/rust-series-4#heading-scopes). This is done differently in many other programming languages(with garbage collectors, etc).
+For the second part in Rust: the memory is automatically returned once the variable that owns it goes out of [scope](https://codetitan.hashnode.dev/rust-series-4#heading-scopes). This is done differently in many other programming languages(with garbage collectors, etc).
 
 Consider the code:
 
