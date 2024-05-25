@@ -3,22 +3,22 @@ title: "References and Borrowing in Rust"
 datePublished: Mon Feb 27 2023 19:20:16 GMT+0000 (Coordinated Universal Time)
 cuid: clen7ftsm000209mfd4rq8vxs
 slug: rust-series-7
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1677080156848/40721767-826a-4a96-822d-7c030d532164.gif
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1716644891403/37ca15d3-75fc-4c77-949a-9206dec14fed.gif
 tags: programming-blogs, beginners, rust, rust-lang, rustseries
 
 ---
 
 ## GitHub repo with all the code
 
-[https://github.com/codeTIT4N/rust-school](https://github.com/codeTIT4N/rust-school)
+[https://github.com/codetit4n/rust-school](https://github.com/codetit4n/rust-school)
 
-For this lesson: [https://github.com/codeTIT4N/rust-school/tree/main/lesson-7](https://github.com/codeTIT4N/rust-school/tree/main/lesson-7)
+For this lesson: [https://github.com/codetit4n/rust-school/tree/main/lesson-7](https://github.com/codetit4n/rust-school/tree/main/lesson-7)
 
 Make sure to star/fork/watch it on GitHub.
 
 ## Prerequisites
 
-To understand this article you must be familiar with the concept of ownership in Rust. For that refer to my [previous article](https://blog.lokeshkr.com/rust-series-6).
+To understand this article you must be familiar with the concept of ownership in Rust. For that refer to my [previous article](https://codetitan.hashnode.dev/rust-series-6).
 
 ## References
 
@@ -181,7 +181,7 @@ Data races cause undefined behavior and can be difficult to diagnose and fix whe
 
 ### Using multiple mutable references despite the restriction
 
-If we want we can use the concept of scope(which we learned [here](https://blog.lokeshkr.com/rust-series-4#heading-scopes)) to use multiple mutable references to the same data like:
+If we want we can use the concept of scope(which we learned [here](https://codetitan.hashnode.dev/rust-series-4#heading-scopes)) to use multiple mutable references to the same data like:
 
 ```rust
 let mut s = String::from("hello");
@@ -193,7 +193,7 @@ let mut s = String::from("hello");
 let r2 = &mut s;
 ```
 
-This code is pretty self-explanatory if you are aware of [scopes in Rust](https://blog.lokeshkr.com/rust-series-4#heading-scopes).
+This code is pretty self-explanatory if you are aware of [scopes in Rust](https://codetitan.hashnode.dev/rust-series-4#heading-scopes).
 
 ### More Rust restrictions while using References
 
