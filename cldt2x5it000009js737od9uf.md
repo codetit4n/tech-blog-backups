@@ -1,4 +1,12 @@
-# Getting started with Rust development
+---
+title: "Getting started with Rust development"
+datePublished: Mon Feb 06 2023 17:20:41 GMT+0000 (Coordinated Universal Time)
+cuid: cldt2x5it000009js737od9uf
+slug: rust-series-1
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1716643494748/7d385447-dd56-4725-9b1c-f7cbf43ba2d5.gif
+tags: learning, rust, getting-started, rust-lang, rustseries
+
+---
 
 Welcome to the course. Don't forget to subscribe to my newsletter for regular updates.
 
@@ -8,7 +16,7 @@ Before I begin I have to mention that I am using a Mac machine(which is very sim
 
 ### GitHub repo with all the code
 
-[https://github.com/codeTIT4N/rust-school](https://github.com/codeTIT4N/rust-school)
+[https://github.com/codetit4n/rust-school](https://github.com/codetit4n/rust-school)
 
 Make sure to star/fork/watch it on GitHub.
 
@@ -89,7 +97,7 @@ If you are familiar with languages like C and C++ you will get it. If not let me
 
 So, this was a very basic program that just prints a simple thing on the screen.
 
-Code: [https://github.com/codeTIT4N/rust-school/tree/main/lesson-1](https://github.com/codeTIT4N/rust-school/tree/main/lesson-1)
+Code: [https://github.com/codetit4n/rust-school/tree/main/lesson-1](https://github.com/codetit4n/rust-school/tree/main/lesson-1)
 
 *Make sure to play with it and experiment*.
 
