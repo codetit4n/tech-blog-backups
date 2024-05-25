@@ -1,8 +1,16 @@
-# Cargo Basics
+---
+title: "Cargo Basics"
+datePublished: Tue Feb 07 2023 15:57:58 GMT+0000 (Coordinated Universal Time)
+cuid: cldufemjz000309mk6x397npo
+slug: rust-series-2
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1716643702911/9366b97d-2743-4ad1-a1ea-98a224084ba8.gif
+tags: learning, rust, rust-lang, cargotoml, rustseries
+
+---
 
 ### GitHub repo with all the code
 
-[https://github.com/codeTIT4N/rust-school](https://github.com/codeTIT4N/rust-school)
+[https://github.com/codetit4n/rust-school](https://github.com/codetit4n/rust-school)
 
 Make sure to star/fork/watch it on GitHub.
 
@@ -98,7 +106,7 @@ And in the target folder, I have a new debug folder:
 
 This folder contains the executable file to run the program. You can see the executable file here, it is called `first_cargo_proj`(`first_cargo_proj.exe` for windows).
 
-Refer: [https://github.com/codeTIT4N/rust-school/tree/main/lesson-2/first\_cargo\_proj/target](https://github.com/codeTIT4N/rust-school/tree/main/lesson-2/first_cargo_proj/target)
+Refer: [https://github.com/codetit4n/rust-school/tree/main/lesson-2/first\_cargo\_proj/target](https://github.com/codetit4n/rust-school/tree/main/lesson-2/first_cargo_proj/target)
 
 *NOTE: I have pushed the target folder in the repo just for reference. Ideally, it should not be pushed to git repos.*
 
