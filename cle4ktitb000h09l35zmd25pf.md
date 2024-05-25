@@ -1,16 +1,24 @@
-# Rust concepts: Compound Types, Scopes, Shadowing, and Functions
+---
+title: "Rust concepts: Compound Types, Scopes, Shadowing, and Functions"
+datePublished: Tue Feb 14 2023 18:27:13 GMT+0000 (Coordinated Universal Time)
+cuid: cle4ktitb000h09l35zmd25pf
+slug: rust-series-4
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1716644089133/27270094-a919-4e67-b817-ff0842555ccd.gif
+tags: programming-blogs, beginners, rust, rust-lang, rustseries
+
+---
 
 ## GitHub repo with all the code
 
-[https://github.com/codeTIT4N/rust-school](https://github.com/codeTIT4N/rust-school)
+[https://github.com/codetit4n/rust-school](https://github.com/codetit4n/rust-school)
 
-For this lesson: [https://github.com/codeTIT4N/rust-school/tree/main/lesson-4](https://github.com/codeTIT4N/rust-school/tree/main/lesson-4)
+For this lesson: [https://github.com/codetit4n/rust-school/tree/main/lesson-4](https://github.com/codetit4n/rust-school/tree/main/lesson-4)
 
 Make sure to star/fork/watch it on GitHub.
 
 ## Compound Types
 
-In the [last blog of the series](https://blog.lokeshkr.com/rust-series-3#heading-revisiting-data-types-and-using-type-annotations), we learned about Data Types, which can be broadly classified into Scalar Types([already coved](https://blog.lokeshkr.com/rust-series-3#heading-revisiting-data-types-and-using-type-annotations)) and Compound Types. Let's talk about Compound Types here.
+In the [last blog of the series](https://codetitan.hashnode.dev/rust-series-3#heading-revisiting-data-types-and-using-type-annotations), we learned about Data Types, which can be broadly classified into Scalar Types([already coved](https://codetitan.hashnode.dev/rust-series-3#heading-revisiting-data-types-and-using-type-annotations)) and Compound Types. Let's talk about Compound Types here.
 
 *Compound types* can group multiple values into one type. Rust has two primitive compound types: tuples and arrays.
 
@@ -191,7 +199,7 @@ A: The answer is it will run and it will give the right output:
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1676386679216/a71b5705-be3e-4ef6-92da-571722b3b81b.png align="left")
 
-**Q: But wait, Isn't variable** `y` **immutable? Then how is it changing value?**
+**Q: But wait, Isn't variable**`y`**immutable? Then how is it changing value?**
 
 A: This behavior in rust is called shadowing. Rustaceans say that the first variable is *shadowed* by the second, which means that the second variable is what the compiler will see when you use the name of the variable. In effect, the second variable overshadows the first, taking any uses of the variable name to itself until either it itself is shadowed or the scope ends.
 
