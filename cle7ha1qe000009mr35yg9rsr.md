@@ -1,16 +1,24 @@
-# Mastering Rust Fundamentals: Statements, Expressions, Control Flow, and Repetition
+---
+title: "Mastering Rust Fundamentals: Statements, Expressions, Control Flow, and Repetition"
+datePublished: Thu Feb 16 2023 19:11:24 GMT+0000 (Coordinated Universal Time)
+cuid: cle7ha1qe000009mr35yg9rsr
+slug: rust-series-5
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1716644324808/68c0bce1-c8ff-4290-b64b-10094f9e1189.gif
+tags: programming-blogs, beginners, rust, rust-lang, rustseries
+
+---
 
 ## GitHub repo with all the code
 
-[https://github.com/codeTIT4N/rust-school](https://github.com/codeTIT4N/rust-school)
+[https://github.com/codetit4n/rust-school](https://github.com/codetit4n/rust-school)
 
-For this lesson: [https://github.com/codeTIT4N/rust-school/tree/main/lesson-5](https://github.com/codeTIT4N/rust-school/tree/main/lesson-5)
+For this lesson: [https://github.com/codetit4n/rust-school/tree/main/lesson-5](https://github.com/codetit4n/rust-school/tree/main/lesson-5)
 
 Make sure to star/fork/watch it on GitHub.
 
 ## Statements and Expressions
 
-We learned about functions in the [last blog](https://blog.lokeshkr.com/rust-series-4#heading-functions-in-rust) of this series. Function bodies are made up of a series of statements optionally ending in an expression.
+We learned about functions in the [last blog](https://codetitan.hashnode.dev/rust-series-4#heading-functions-in-rust) of this series. Function bodies are made up of a series of statements optionally ending in an expression.
 
 ### But, why do we need to learn about statements and expressions?
 
@@ -77,13 +85,13 @@ In this example, the expression:
 }
 ```
 
-is a block that, evaluates to `4`. That value gets bound to `k` as part of the `let` statement. Note that the `w + 1` line doesn’t have a semicolon at the end. Remember, we were not allowed to put a semicolon at the end of a function in the [last lesson](https://blog.lokeshkr.com/rust-series-4#heading-returning-data-from-a-function).
+is a block that, evaluates to `4`. That value gets bound to `k` as part of the `let` statement. Note that the `w + 1` line doesn’t have a semicolon at the end. Remember, we were not allowed to put a semicolon at the end of a function in the [last lesson](https://codetitan.hashnode.dev/rust-series-4#heading-returning-data-from-a-function).
 
 **The thing is**:
 
 Expressions do not include ending semicolons. If you add a semicolon to the end of an expression, you turn it into a statement, and it will then not return a value. Keep this in mind.
 
-NOTE: In the [last blog](https://blog.lokeshkr.com/rust-series-4#heading-returning-data-from-a-function) when we tried to return a value from the function using an explicit `return` statement and put a semicolon after that, it worked. This was because due to the `return` present there, the function returned/terminated at that point.
+NOTE: In the [last blog](https://codetitan.hashnode.dev/rust-series-4#heading-returning-data-from-a-function) when we tried to return a value from the function using an explicit `return` statement and put a semicolon after that, it worked. This was because due to the `return` present there, the function returned/terminated at that point.
 
 Now, let's explore the above example to further understand this concept. So, consider this part of the example:
 
@@ -96,7 +104,7 @@ let k = {
 
 You can see there is a semicolon at the end after `}` . This is because of the let statement. Being a statement it should not return any value so, if I remove this semicolon it will throw an error. A semicolon tells Rust this is where this statement ends.
 
-NOTE: Go to the [GitHub repo](https://github.com/codeTIT4N/rust-school), clone it, and try out different things like adding, and removing semicolons and experiment to make sure you really understand this part as it is very important.
+NOTE: Go to the [GitHub repo](https://github.com/codetit4n/rust-school), clone it, and try out different things like adding, and removing semicolons and experiment to make sure you really understand this part as it is very important.
 
 ## Control Flow
 
@@ -257,7 +265,7 @@ If I try to run this, I will get a non-terminating program that is printing "aga
 
 Note: Do forget to terminate this program.
 
-**Breaking from a** `loop`
+**Breaking from a**`loop`
 
 Rust also provides ways to break from a loop using the `break` keyword:
 
@@ -277,7 +285,7 @@ In this example, we have a mutable variable `counter` which keeps on increasing 
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1676550883074/fa56f0ac-55b9-4a9a-95b6-25c335a730cd.png align="left")
 
-`coninue` **keyword**
+`coninue`**keyword**
 
 Rust provides a special keyword `continue` which when encountered, that particular iteration is terminated, and the control is returned to the loop head, typically continuing with the next iteration. For example:
 
