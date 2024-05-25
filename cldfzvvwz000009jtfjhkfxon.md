@@ -44,7 +44,7 @@ Now create a .env file which will have 2 environment variables:
 2. ACCOUNT\_ADDRESS: Here put any ethereum account address for which you want to fetch the balance.
     
 
-For reference: [https://github.com/codeTIT4N/rust-web3-basics/blob/master/.env.example](https://github.com/codeTIT4N/rust-web3-basics/blob/master/.env.example)
+For reference: [https://github.com/codetit4n/rust-web3-basics/blob/master/.env.example](https://github.com/codetit4n/rust-web3-basics/blob/master/.env.example)
 
 ### Importing types for handling web3 data
 
